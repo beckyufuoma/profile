@@ -1,0 +1,56 @@
+#ask{
+    background-color:#fdfdfd;
+    font-size: 20px;
+    justify-content: space-between;
+    min-height: 55.95;/* to control the height of the div or navbar */
+    border-top: 5px solid #425252;
+    position: relative;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 100 100px;
+}   
+#ask a{
+    color: #000000;
+    text-decoration: none;  
+    padding:30px 30px 30px 30px;
+    vertical-align: top;/* This is the line that makes the text align vertically */
+}
+#fond{
+    font-weight: 100px;/*to make the font lighter*/
+    position: relative; left: 300px;
+}
+.work{
+    nav-right: 20px;
+    font-weight: 0px;
+    position: relative; left:  900px; /*to move the nav bar to the right*/
+}
+.bond{
+    position: relative; left: 300px; /*to move text to the right*/
+    display: block;
+    flex-direction: column;
+    font-feature-settings: "kern" 1;
+    font-kerning: normal;
+    flex: 1;
+    -webkit-font-feature-settings: "kern" 1;
+    -webkit-text-size-adjust: 100%;
+     padding: 30px 0;
+}
+h2{
+    text-decoration-line: none; 
+    font-weight: 27.95px;/*to make the font lighter*/  
+    font-size: 1em;
+
+}
+
+hr{
+    border: none snow #000000; /*to make the line between the nav bar and the text to be thinner*/ 
+}
+p{
+    font-size: 17px;
+    text-decoration-line: none;/*to remove the underline from the text*/
+    
+}
+
+body {
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+}
